@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+
 /*
  * @lc app=leetcode.cn id=2 lang=java
  *
@@ -12,6 +14,7 @@
 class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
         ListNode ret = new ListNode(0);
         ListNode result = ret;
         ret.next = result;
