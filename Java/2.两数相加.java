@@ -19,6 +19,7 @@ class Solution {
         ListNode result = ret;
         ret.next = result;
         int cx = 0;
+        
         int mid = 0;
         while (l1 != null && l2 != null) {
             mid = l1.val + l2.val + cx;

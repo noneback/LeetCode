@@ -6,11 +6,11 @@
 
 // @lc code=start
 #include <string.h>
-
 #include <string>
 #include <vector>
 using namespace std;
-class Solution {
+class Solution 
+{
  private:
   vector<vector<string>> ans;
 
