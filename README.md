@@ -1,2 +1,2 @@
 # LeetCode
-self use LeetCode repository
+LeetCode repository
