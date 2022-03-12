@@ -16,7 +16,7 @@ public:
             s.insert(v);
             return;
         }
-        while (i != begin && i < arr.size() && arr[i - 1] == arr[i]) i++;
+        while (i != begin && i < arr.size() && arr[i - 1] == arr[i]) i++; // 去重，删除同层的相同数据
 
         if (i == arr.size() || target < arr[i]) return; // no need to go down
 
