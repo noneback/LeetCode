@@ -13,7 +13,7 @@ public:
 
     void BackTrack(const vector<int> &arr, vector<int> &v, int i, int target, int begin) {
         if (target == 0) {
-            s.insert(v);
+            ans.push_back(v);
             return;
         }
         while (i != begin && i < arr.size() && arr[i - 1] == arr[i]) i++; // 去重，删除同层的相同数据
